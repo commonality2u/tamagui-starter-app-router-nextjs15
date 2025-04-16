@@ -18,7 +18,6 @@ const plugins = [
     importsWhitelist: ['constants.js', 'colors.js'],
     outputCSS: process.env.NODE_ENV === 'production' ? './public/tamagui.css' : null,
     logTimings: true,
-    disableThemesBundleOptimize: true,
     disableExtraction,
     shouldExtract: (path) => {
       if (path.includes(join('packages', 'app'))) {
