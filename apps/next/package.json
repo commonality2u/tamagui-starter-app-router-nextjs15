@@ -10,6 +10,7 @@
     "lint": "next lint",
     "test": "vitest"
   },
+  "packageManager": "yarn@4.5.0",
   "dependencies": {
     "@tamagui/config": "^1.125.35",
     "@tamagui/next-theme": "^1.125.35",
